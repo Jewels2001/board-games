@@ -1,0 +1,41 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap');
+
+/* @font-face {
+  font-family: "LXGW WenKai Mono";
+  src: local("LXGW Wenkai Mono"),
+  url(/fonts/LXGWWenKaiMono.ttf)format("truetype");
+} */
+.lxgw-wenkai-mono-tc-regular {
+  font-family: "LXGW WenKai Mono TC", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#app {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: normal;
+  font-family: lxgw-wenkai-mono-tc-regular
+}
+
+.full {
+  padding: 1rem;
+}
+/* 
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+} */
+
