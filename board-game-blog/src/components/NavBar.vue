@@ -8,6 +8,9 @@ import { RouterLink} from 'vue-router'
             <RouterLink to="/">Home</RouterLink>
             <RouterLink to="/about">About</RouterLink>
         </div> 
+        <div style="align-items: end;">
+            GITHUB
+        </div>
 
     </div>
 </template>
