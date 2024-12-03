@@ -8,9 +8,10 @@ import { RouterLink} from 'vue-router'
             <RouterLink to="/">Home</RouterLink>
             <RouterLink to="/about">About</RouterLink>
         </div> 
-        <div style="align-items: end;">
+        <div style="align-content:end; text-align:end; padding: 14px 16px;">
             GITHUB
         </div>
+        ABC
 
     </div>
 </template>
@@ -18,7 +19,10 @@ import { RouterLink} from 'vue-router'
 <style>
 .top {
     height: 50px;
+    width: 100%;
     background-color: lightcoral;
+    color: #525252;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     overflow: hidden;
     display: block;
     clear: both;

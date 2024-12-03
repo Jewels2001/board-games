@@ -1,19 +1,20 @@
 @import './base.css';
 @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap');
 
-/* @font-face {
-  font-family: "LXGW WenKai Mono";
+@font-face {
+  font-family: "LXGW-WenKai-Mono";
   src: local("LXGW Wenkai Mono"),
   url(/fonts/LXGWWenKaiMono.ttf)format("truetype");
-} */
+}
 .lxgw-wenkai-mono-tc-regular {
-  font-family: "LXGW WenKai Mono TC", monospace;
+  font-family: "LXGW WenKai Mono TC", "LXGW-WenKai-Mono", monospace;
   font-weight: 400;
   font-style: normal;
 }
 
 
 #app {
+  min-height: 100vh;
   height: 100%;
   width: 100%;
   margin: 0 auto;
@@ -22,7 +23,16 @@
 }
 
 .full {
+  min-height: 50vh;
   padding: 1rem;
+  height: 100%;
+  width: 100%;
+}
+
+.full-no-pad {
+  min-height: 50vh;
+  height: 100%;
+  width: 100%;
 }
 /* 
 a,
